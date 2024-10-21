@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<style>
+    body{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .navbar-header
+    {
+        color:green;
+        font-weight: bolder;
+        font-size:50px;
+    }
+    .nav-link
+    {
+        color:rgb(11,11,11);
+    }
+    .carousel img{
+        width:100%;
+        height:400px;
+    }
+    .margin
+    {
+        padding-left:100px;
+    }
+    h3{
+        padding-top: 200px;
+        font-weight: bolder;
+        font-size: 50px;
+    }
+    .btn1
+    {
+        border-radius: 50px;
+        background-color: rgb(9,186,9);
+        padding: 15px 55px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+          <span class="navbar-header">Sportzzz World</span>
+          <ul class="nav justify-content-end">
+            <li class="nav-item ">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#aboutsec">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#productsec">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#featuresec">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contactus">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <nav class="carousel">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://thumbs.dreamstime.com/b/sport-equipment-2-22802518.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>World class Sports equipment</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+        <div class="carousel-item">
+            <img src="https://rukminim2.flixcart.com/image/612/612/kvba7bk0/kit/n/3/8/mrf-grand-edition-vk-18-cricket-set-of-6-no-ideal-for-11-14-original-imag88qztqxmghzk.jpeg?q=70" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+        </div>
+          <div class="carousel-item">
+            <img src="https://img.freepik.com/free-photo/sports-tools_53876-138077.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+        <div class="carousel-item">
+            <img src="https://th.bing.com/th/id/OIP.m_weiN1e8WqYxwj5VCChKQHaEK?pid=ImgDet&w=474&h=266&rs=1" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>fourth slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </nav>
+    <div class="container bg-1" id="aboutsec">
+        <div class="row ">
+          <div class="col-5">
+            <img src="https://image.shutterstock.com/image-photo/cricket-leather-ball-resting-on-260nw-1773488369.jpg" alt="" width="550" height="550">
+          </div>
+          <div class="col-7">
+          <div class="margin" >
+            <h3 > World class Sports equipment</h3>
+            <p >India's First and Best leading world class sports equipment's are only there , affordable price & quality we have providing in the SPORTS WORLD , all sports material are 6month warrenty provided</p>
+              <button type="button" class="btn1 btn-success" >Read More</button>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <section class="Features" id="featuresec">
+        <div class="container py-5">
+          <div class="row py-5">
+            <div class="col-lg-5 m-auto text-center">
+              <h1>Our Features</h1>
+              <p>We are having all kind of sportd product and equipment providing a offer price 365 days, Cash on delivery available,and also easy return incase of damage </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+            <div class="card py-5 text-center">
+              <div class="cardbody">
+                <img src="https://th.bing.com/th/id/OIP.2ON8PD7rkeu9aYxyHTGW8gHaHa?rs=1&pid=ImgDetMain" class="img-fluid" style="height: 150px; width: 150px;" alt="...">
+                <h4 class="cardtitle">Cricket Bats</h4>
+                  <p class="card-text" >English willow & Kashmir willow bats</p>
+                  <a href="#" class="btn  btn-outline-success pt-2" style="border-radius: 50px; ">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card py-5 text-center">
+              <div class="cardbody">
+                <img src="https://cdn.pixabay.com/photo/2023/04/17/10/31/tennis-7932067_1280.jpg" class="img-fluid" style="height: 150px; width: 250px;" alt="...">
+                <h4 class="cardtitle">Tennis Rockets</h4>
+                  <p class="card-text">Aluminm Foil bats available</p>
+                  <a href="#" class="btn btn-outline-success pt-2" style="border-radius: 50px; ">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card py-5 text-center">
+              <div class="cardbody">
+                <img src="https://cdn.pixabay.com/photo/2016/07/27/02/57/volleyball-1544453_640.jpg" class="img-fluid" style="height: 150px; width: 150px;" alt="...">
+                <h4 class="cardtitle">Volley Ball</h4>
+                  <p class="card-text">Nivia Brand available</p>
+                  <a href="#" class="btn btn-outline-success pt-2 " style="border-radius: 50px; ">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+
+
+      <section class="product" id="productsec">
+        <div class="container  py-5">
+          <div class="row py-5">
+            <div class="col m-auto text-start">
+              <h1>Our Products</h1>
+              <p>Now Diwali offer are going upto 75% discount on Every cutomer </p>
+            </div>
+              <div class="col text-end">
+              <div class="btn-group justify-content-end">
+                <a href="#" class="btn btn-success active" aria-current="page">Cricket</a>
+                <a href="#" class="btn btn-outline-success ">Shuttle</a>
+                <a href="#" class="btn btn-outline-success ">Volley ball</a>
+              </div>
+              </div>
+              <div class="row ">
+                <div class="col-lg-3 text-center">
+                <div class="card border-0 bg-light">
+                  <div class="card-body">
+                       <img src="https://nwscdn.com/media/catalog/product/cache/all/image/1200x/9df78eab33525d08d6e5fb8d27136e95/l/e/leather_cricket_balls_with_traditional_seam_3.jpg" class="img-fluid"style="height: 250px; width:250px ;" alt="...">
+                  </div>
+                  <h6>Cricket Ball</h6>
+                  <p>$350.00</p>
+                </div>
+                </div>
+                <div class="col-lg-3 text-center">
+                  <div class="card border-0 bg-light">
+                    <div class="card-body">
+                         <img src="https://th.bing.com/th/id/OIP.tWIJA6kk8FvGiEzZKGYVYwHaHa?rs=1&pid=ImgDetMain" class="img-fluid" style="height: 250px; width:250px ;" alt="...">
+                    </div>
+                    <h6>English willow</h6>
+                    <p>$1500.00</p>
+                  </div>
+                  </div>
+                  <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light">
+                      <div class="card-body">
+                           <img src="https://th.bing.com/th/id/OIP.4LOlMO4KwMSdSiNOxR3fAQHaHa?w=201&h=200&c=7&r=0&o=5&pid=1.7" class="img-fluid"style="height: 250px; width:250px ;" alt="...">
+                      </div>
+                      <h6>Stumps</h6>
+                      <p>$100.00</p>
+                    </div>
+                    </div>
+                    <div class="col-lg-3 text-center">
+                      <div class="card border-0 bg-light">
+                        <div class="card-body">
+                             <img src="https://th.bing.com/th/id/OIP.U-HGN0qk166B3w1cQ9i77QHaGg?w=227&h=200&c=7&r=0&o=5&pid=1.7" class="img-fluid"style="height: 250px; width:250px ;" alt="...">
+                        </div>
+                        <h6>Helmet</h6>
+                        <p>$800.00</p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 text-center">
+                        <div class="card border-0 bg-light">
+                          <div class="card-body">
+                               <img src="https://th.bing.com/th/id/OIP.ZssMqQPzp2DneihzYLDaeQHaEB?w=301&h=180&c=7&r=0&o=5&pid=1.7" class="img-fluid" style="height: 250px; width:250px ;" alt="...">
+                          </div>
+                          <h6>Full kit</h6>
+                          <p>$8000.00</p>
+                        </div>
+                        </div>
+                        <div class="col-lg-3 text-center">
+                          <div class="card border-0 bg-light">
+                            <div class="card-body">
+                                 <img src="https://4.bp.blogspot.com/-VSruIpemyKc/UtGjBjcX4nI/AAAAAAAAEcQ/8RVxNHEye9M/s1600/The+ICC+Cricket+World+Cup+trophy+is+displayed+at+the+Melbourne+Cricket+Ground+on+January+11%252C+2014.++Australia+and+New+Zealand+will+host+the+cricket+world+cup+from+February+14+to+March+29%252C+2015..jpg" class="img-fluid" style="height: 250px; width:250px ;" alt="...">
+                            </div>
+                            <h6>Trophy</h6>
+                            <p>$1850.00</p>
+                          </div>
+                          </div>
+                          <div class="col-lg-3 text-center">
+                            <div class="card border-0 bg-light">
+                              <div class="card-body">
+                                   <img src="https://th.bing.com/th?q=Tennis+Racket+and+Ball&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" class="img-fluid" style="height: 250px; width:250px ;" alt="...">
+                              </div>
+                              <h6>Tennis Rocket</h6>
+                              <p>$7580.00</p>
+                            </div>
+                            </div>
+                            <div class="col-lg-3 text-center">
+                              <div class="card border-0 bg-light">
+                                <div class="card-body">
+                                     <img src="https://th.bing.com/th/id/OIP.HqM7_nUrrp8SuPKAWhQr0wHaEt?rs=1&pid=ImgDetMain" class="img-fluid" style="height: 250px; width:250px ;" alt="...">
+                                </div>
+                                <h6>Yellow tennis</h6>
+                                <p>$50.00</p>
+                              </div>
+                              </div>
+              </div>
+          </div>
+          </div>
+          <section class="Contact" id="contactus">
+            <div class="container py-5">
+              <div class="col-lg-5 m-auto text-center">
+                <h1>Contact Us</h1>
+                <p>If you need a clarification about the  product price details don't hesitate ,every time you can call us we provide a great service from our side,our team will help you 24/7 , each and every product will be a branded one</p>
+              </div>
+                <div class="row ">
+                  <div class="mb-3">
+                    <input type="text" class="form-control" style="padding: 20px;" id="formGroupExampleInput" placeholder="Your name">
+                  </div>
+                  <div class="mb-3">
+                    <input type="text" class="form-control" style="padding: 20px;" id="formGroupExampleInput" placeholder="your email">
+                  </div>
+                  <div class="mb-3">
+                    <input type="text" class="form-control" style="padding: 20px;" id="formGroupExampleInput" placeholder="subject">
+                  </div>
+                  <div class="textarea mb-3">
+                    <textarea rows="5" cols="10" type="text" class="form-control" style="padding: 20px;" id="formGroupExampleInput"  placeholder="Message"> Message</textarea>
+                  </div>
+                </div>
+                <div class="content text-center">
+                <button type="button" class="btn1 btn-success">Send Message</button>
+              </div>
+              </div>
+            </div>
+          </section>
+  
+  
+</body>
+</html>
